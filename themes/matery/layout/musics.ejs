@@ -18,16 +18,16 @@
 
                         <style>
                         .bubbles > .particle {
-                            /*初始透明度为0*/
+                            
                             opacity: 0;
                             position: absolute;
-                            /*初始颜色为荧光色，透明度为0.7*/
+                            
                             background-color: rgba(128,255,0,0.7);
-                            /*使用bubbles动画，持续时间18秒，缓慢进入，无限循环*/
+                          
                             animation: bubbles 18s ease-in infinite;
                             border-radius: 100%;
                         }
-                        /*css keyframes 动画*/
+                       
                         @keyframes bubbles {
                             0% {
                                 opacity: 0;
@@ -36,14 +36,14 @@
                                 opacity: 1;
                                 transform: translate(0, -20%);
                             }
-                            /*这里-8000%表示是气泡的8000%*/
+                           
                             100% {
                                 opacity: 0;
                                 transform: translate(0, -8000%);
                             }
                         }
                         </style>
-                        <!-- 这里让元素宽度100%（和页面等宽） -->
+                      
                         <div style="width: 100%; height: 100%; position: relative; bottom: 0px;" class="particletext bubbles">
 
 

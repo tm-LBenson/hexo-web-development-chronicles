@@ -433,17 +433,17 @@ translate:
 
 ### 修改社交链接
 
-在主题的 `_config.yml` 文件中，默认支持 `QQ`、`GitHub` 和邮箱等的配置，你可以在主题文件的 `/layout/_partial/social-link.ejs` 文件中，新增、修改你需要的社交链接地址，增加链接可参考如下代码：
+ `_config.yml`  `QQ`、`GitHub`  `/layout/_partial/social-link.ejs`：
 
 ```html
 <% if (theme.socialLink.github) { %>
-    <a href="<%= theme.socialLink.github %>" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="<%= theme.socialLink.github %>" class="tooltipped" target="_blank" data-tooltip="GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
 <% } %>
 ```
 
-其中，社交图标（如：`fa-github`）你可以在 [Font Awesome](https://fontawesome.com/icons) 中搜索找到。以下是常用社交图标的标识，供你参考：
+（：`fa-github` [Font Awesome](https://fontawesome.com/icons)：
 
 - Facebook: `fab fa-facebook`
 - Twitter: `fab fa-twitter`
@@ -461,20 +461,20 @@ translate:
 
 ### 修改打赏的二维码图片
 
-在主题文件的 `source/medias/reward` 文件中，你可以替换成你的的微信和支付宝的打赏二维码图片。
+
 
 ### 配置音乐播放器（可选的）
 
-要支持音乐播放，在主题的 `_config.yml` 配置文件中激活music配置即可：
+
 
 ```yaml
-# 是否在首页显示音乐
+
 music:
   enable: true
-  title:     	    # 非吸底模式有效
+  title:     	    
     enable: true
-    show: 听听音乐
-  server: netease   # require music platform: netease, tencent, kugou, xiami, baidu
+    show: music
+  server: netease   
   type: playlist    # require song, playlist, album, search, artist
   id: 503838841     # require song id / playlist id / album id / search keyword
   fixed: false      # 开启吸底模式
@@ -487,19 +487,11 @@ music:
   listFolded: true  # 列表默认折叠
 ```
 
-> `server`可选`netease`（网易云音乐），`tencent`（QQ音乐），`kugou`（酷狗音乐），`xiami`（虾米音乐），
->
-> `baidu`（百度音乐）。
->
-> `type`可选`song`（歌曲），`playlist`（歌单），`album`（专辑），`search`（搜索关键字），`artist`（歌手）
->
-> `id`获取方法示例: 浏览器打开网易云音乐，点击我喜欢的音乐歌单，浏览器地址栏后面会有一串数字，`playlist`的`id`
->
-> 即为这串数字。
 
-### 添加note
 
-> [演示](https://blog.17lai.site/posts/cf0f47fd/#tag-note)
+
+
+
 
 #### Usage
 
@@ -524,11 +516,7 @@ All parameters are optional.
 {% endnote %}
 ```
 
-### 添加button
 
-> [演示](https://blog.17lai.site/posts/cf0f47fd/#tag-button)
-
-#### Usage
 
 ```
 {% button url, text, icon [class], [title] %}
@@ -555,38 +543,7 @@ or
 
 ## 文章 Front-matter 介绍
 
-### Front-matter 选项详解
 
-`Front-matter` 选项中的所有内容均为**非必填**的。但我仍然建议至少填写 `title` 和 `date` 的值。
-
-| 配置选项   | 默认值                      | 描述                                                         |
-| ---------- | --------------------------- | ------------------------------------------------------------ |
-| title      | `Markdown` 的文件标题        | 文章标题，强烈建议填写此选项                                 |
-| date       | 文件创建时的日期时间          | 发布时间，强烈建议填写此选项，且最好保证全局唯一             |
-| author     | 根 `_config.yml` 中的 `author` | 文章作者                                                     |
-| img        | `featureImages` 中的某个值   | 文章特征图，推荐使用图床(腾讯云、七牛云、又拍云等)来做图片的路径.如: `http://xxx.com/xxx.jpg` |
-| top        | `true`                      | 推荐文章（文章是否置顶），如果 `top` 值为 `true`，则会作为首页推荐文章 |
-| hide        | `false`                    | 隐藏文章，如果`hide`值为`true`，则文章不会在首页显示 |
-| cover      | `false`                     | `v1.0.2`版本新增，表示该文章是否需要加入到首页轮播封面中 |
-| coverImg   | 无                          | `v1.0.2`版本新增，表示该文章在首页轮播封面需要显示的图片路径，如果没有，则默认使用文章的特色图片 |
-| password   | 无                          | 文章阅读密码，如果要对文章设置阅读验证密码的话，就可以设置 `password` 的值，该值必须是用 `SHA256` 加密后的密码，防止被他人识破。前提是在主题的 `config.yml` 中激活了 `verifyPassword` 选项 |
-| toc        | `true`                      | 是否开启 TOC，可以针对某篇文章单独关闭 TOC 的功能。前提是在主题的 `config.yml` 中激活了 `toc` 选项 |
-| mathjax    | `false`                     | 是否开启数学公式支持 ，本文章是否开启 `mathjax`，且需要在主题的 `_config.yml` 文件中也需要开启才行 |
-| summary    | 无                          | 文章摘要，自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要 |
-| categories | 无                          | 文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类 |
-| tags       | 无                          | 文章标签，一篇文章可以多个标签                              |
-| keywords   | 文章标题                     | 文章关键字，SEO 时需要                              |
-| reprintPolicy | cc_by                    | 文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint 或 pay 中的一个 |
-
-> **注意**:
-> 1. 如果 `img` 属性不填写的话，文章特色图会根据文章标题的 `hashcode` 的值取余，然后选取主题中对应的特色图片，从而达到让所有文章的特色图**各有特色**。
-> 2. `date` 的值尽量保证每篇文章是唯一的，因为本主题中 `Gitalk` 和 `Gitment` 识别 `id` 是通过 `date` 的值来作为唯一标识的。
-> 3. 如果要对文章设置阅读验证密码的功能，不仅要在 Front-matter 中设置采用了 SHA256 加密的 password 的值，还需要在主题的 `_config.yml` 中激活了配置。有些在线的 SHA256 加密的地址，可供你使用：[开源中国在线工具](http://tool.oschina.net/encrypt?type=2)、[chahuo](http://encode.chahuo.com/)、[站长工具](http://tool.chinaz.com/tools/hash.aspx)。
-> 4. 您可以在文章md文件的 front-matter 中指定 reprintPolicy 来给单个文章配置转载规则
-
-以下为文章的 `Front-matter` 示例。
-
-### 最简示例
 
 ```yaml
 ---
@@ -618,81 +575,5 @@ tags:
 ---
 ```
 
-## 效果截图
 
-![首页](http://static.blinkfox.com/matery-20181202-1.png)
-
-![首页推荐文章](http://static.blinkfox.com/matery-20181202-2.png)
-
-![首页文章列表](http://static.blinkfox.com/matery-20181202-3.png)
-
-![首页文章列表](http://static.blinkfox.com/matery-20181202-7.png)
-
-![首页文章列表](http://static.blinkfox.com/matery-20181202-8.png)
-
-## 自定制修改
-
-在本主题的 `_config.yml` 中可以修改部分自定义信息，有以下几个部分：
-
-- 菜单
-- 我的梦想
-- 首页的音乐播放器和视频播放器配置
-- 是否显示推荐文章名称和按钮配置
-- `favicon` 和 `Logo`
-- 个人信息
-- TOC 目录
-- 文章打赏信息
-- 复制文章内容时追加版权信息
-- MathJax
-- 文章字数统计、阅读时长
-- 点击页面的'爱心'效果
-- 我的项目
-- 我的技能
-- 我的相册
-- `Gitalk`、`Gitment`、`Valine` 和 `disqus` 评论配置
-- [不蒜子统计](http://busuanzi.ibruce.info/)和谷歌分析（`Google Analytics`）
-- 默认特色图的集合。当文章没有设置特色图时，本主题会根据文章标题的 `hashcode` 值取余，来选择展示对应的特色图
-
-**我认为个人博客应该都有自己的风格和特色**。如果本主题中的诸多功能和主题色彩你不满意，可以在主题中自定义修改，很多更自由的功能和细节点的修改难以在主题的 `_config.yml` 中完成，需要修改源代码才来完成。以下列出了可能对你有用的地方：
-
-### 修改主题颜色
-
-在主题文件的 `/source/css/matery.css` 文件中，搜索 `.bg-color` 来修改背景颜色：
-
-```css
-/* 整体背景颜色，包括导航、移动端的导航、页尾、标签页等的背景颜色. */
-.bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
-}
-
-@-webkit-keyframes rainbow {
-   /* 动态切换背景颜色. */
-}
-
-@keyframes rainbow {
-    /* 动态切换背景颜色. */
-}
-```
-
-### 修改 banner 图和文章特色图
-
-你可以直接在 `/source/medias/banner` 文件夹中更换你喜欢的 `banner` 图片，主题代码中是每天动态切换一张，只需 `7` 张即可。如果你会 `JavaScript` 代码，可以修改成你自己喜欢切换逻辑，如：随机切换等，`banner` 切换的代码位置在 `/layout/_partial/bg-cover-content.ejs` 文件的 `<script></script>` 代码中：
-
-```javascript
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
-```
-
-在 `/source/medias/featureimages` 文件夹中默认有 24 张特色图片，你可以再增加或者减少，并需要在 `_config.yml` 做同步修改。
-
-## 版本变更记录
-
-参见 [CHANGELOG.md](https://github.com/blinkfox/hexo-theme-matery/blob/master/CHANGELOG.md)
-
-## 更多部署方式
-
-> Jsdelivr 已经被封了，这两个可以加速访问快一点
-
-### [vercel 部署](https://blog.17lai.site/posts/5311b619/#vercel-%E9%83%A8%E7%BD%B2)
-
-### [cloudflare Pages 部署](https://blog.17lai.site/posts/5311b619/#cloudflare-Pages-%E9%83%A8%E7%BD%B2)
 

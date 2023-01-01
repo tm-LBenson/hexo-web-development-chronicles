@@ -16,7 +16,7 @@
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <% if (theme.translate.enable) { %>
-                <span id="translate">|&nbsp;繁/简：</span><a id="translateLink" href="javascript:translatePage();">繁</a>
+                <span id="translate">|&nbsp;</span><a id="translateLink" href="javascript:translatePage();">numerous</a>
             <% } %>
             <br>
             <% if (theme.postInfo.totalCount) { %>
@@ -41,7 +41,7 @@
             <% } %>
             <br>
 
-            <!-- 运行天数提醒. -->
+            
             <% if (theme.time.enable) { %>
                 <span id="sitetime"> Loading ...</span>
                 <script>
@@ -70,25 +70,25 @@
                         var diffYears = Math.floor(diff / years);
                         var diffDays = Math.floor((diff / days) - diffYears * 365);
 
-                        // 区分是否有年份.
+                    
                         var language = '<%- config.language %>';
                         if (startYear === String(todayYear)) {
                             document.getElementById("year").innerHTML = todayYear;
                             var daysTip = 'This site has been running for ' + diffDays + ' days';
-                            if (language === 'zh-CN') {
-                                daysTip = '本站已运行 ' + diffDays + ' 天';
-                            } else if (language === 'zh-HK') {
-                                daysTip = '本站已運行 ' + diffDays + ' 天';
+                            if (language === 'en-us') {
+                                daysTip = 'Days site running ' + diffDays + ' ';
+                            } else if (language === 'en-us') {
+                                daysTip = 'Days site running ' + diffDays + ' ';
                             }
                             document.getElementById("sitetime").innerHTML = daysTip;
                         } else {
                             document.getElementById("year").innerHTML = startYear + " - " + todayYear;
                             var yearsAndDaysTip = 'This site has been running for ' + diffYears + ' years and '
                                 + diffDays + ' days';
-                            if (language === 'zh-CN') {
-                                yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天';
-                            } else if (language === 'zh-HK') {
-                                yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            if (language === 'en-us') {
+                                yearsAndDaysTip = '- ' + diffYears + ' 年 ' + diffDays + ' ';
+                            } else if (language === 'en-us') {
+                                yearsAndDaysTip = 'Days site running ' + diffYears + '  ' + diffDays + ' ';
                             }
                             document.getElementById("sitetime").innerHTML = yearsAndDaysTip;
                         }

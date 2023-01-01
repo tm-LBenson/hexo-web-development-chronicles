@@ -33,13 +33,13 @@
             <!--valine评论弹幕-->
             <% if (theme.valine && theme.valine.enable) { %>
                 <p>
-                    <b>畅所欲言</b><br>
-                    <b>在这里可以留下你的足迹，欢迎在下方留言，欢迎交换友链</b><br>
-                    <b>友链信息</b><br>
-                    <b>博客名称: <%- config.title %></b><br>
-                    <b>博客网址: <%- config.url %></b><br>
-                    <b>博客头像: <%- config.url %>/medias/logo.png</b><br>
-                    <b>博客介绍: 犹豫就会败北</b><br>
+                    <b>speak freely</b><br>
+                    <b>You can leave your footprints here, welcome to leave a message below, welcome to exchange friendship links</b><br>
+                    <b>friend chain information</b><br>
+                    <b>blog name: <%- config.title %></b><br>
+                    <b>blog URL: <%- config.url %></b><br>
+                    <b>blog Avatar: <%- config.url %>/medias/logo.png</b><br>
+                    <b>blog introduction: add here</b><br>
                 </p>
                 <div class="container">
                     <section id="custom" class="bb-section">
@@ -50,15 +50,15 @@
                                         文字：<input class="form-control" name="info" type="text" placeholder="hello, world"/>
                                     </div>
                                     <div class="form-group">
-                                        链接：<input class="form-control" name="href" type="text" placeholder="https://github.com/blinkfox/hexo-theme-matery"/>
+                                        Link：<input class="form-control" name="href" type="text" placeholder="https://github.com/blinkfox/hexo-theme-matery"/>
                                     </div>
                                     <div class="form-group">
-                                        速度：<input  class="form-control"  name="speed" type="text" placeholder="5~20" value="16" />
+                                        speed：<input  class="form-control"  name="speed" type="text" placeholder="5~20" value="16" />
                                     </div>
                                 </form>
                                 <div class="form-group">
                                     <button id="send"  class="btn" onclick="run()">留言</button>
-                                    <button id="clear" class="btn " onclick="clear_barrage()"> 清除</button>
+                                    <button id="clear" class="btn " onclick="clear_barrage()"> clear</button>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                         do_barrager();
                         async function do_barrager() {
                             let lists = [];
-                            //查询弹幕
+                           
                             const query = new AV.Query('barrager');
                             const barrager = await query.find().then((barrager) => {
                                 lists = barrager;
@@ -101,12 +101,12 @@
                         }
                     });
 
-                    //发送弹幕
+                  
                     function  run(){
                         let info = $('input[name=info]').val();
                         (info === '' ) ?  info='hello world' : info=info;
                         let href = $('input[name=href]').val();
-                        (href === '' ) ?  href='https://github.com/blinkfox/hexo-theme-matery' : href=href;
+                        (href === '' ) ?  href='https://github.com/tm-LBenson' : href=href;
                         let speed = parseInt($('input[name=speed]').val());
                         if(speed > 20 || speed < 5)
                             speed = Math.floor(Math.random() * 10) + 5;
@@ -131,7 +131,7 @@
             <% } %>
         </div>
 
-        <!--其他评论card-->
+       
         <div class="card">
             <% if (theme.gitalk && theme.gitalk.enable) { %>
                 <%- partial('_partial/gitalk') %>
