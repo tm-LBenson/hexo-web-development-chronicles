@@ -24,16 +24,16 @@
                         class="white-color"><%= totalcount(site) %></span>
             <% } %>
             <% let socialClass = '' %>
-            <% if (theme.busuanziStatistics && theme.busuanziStatistics.enable) { %>
+            <% if (theme.busuanziStatistics && theme.busuanziStatistics.enable && false) { %>
                 <% socialClass = 'social-statis' %>
             <% } %>
-            <% if (theme.busuanziStatistics && theme.busuanziStatistics.totalTraffic) { %>
+            <% if (theme.busuanziStatistics && theme.busuanziStatistics.totalTraffic && false) { %>
                 <span id="busuanzi_container_site_pv">
                 &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;<%- __('siteTotalVisits') %>:&nbsp;
                     <span id="busuanzi_value_site_pv" class="white-color"></span>
             </span>
             <% } %>
-            <% if (theme.busuanziStatistics && theme.busuanziStatistics.totalNumberOfvisitors) { %>
+            <% if (theme.busuanziStatistics && theme.busuanziStatistics.totalNumberOfvisitors && false) { %>
                 <span id="busuanzi_container_site_uv">
                 &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;<%- __('siteTotalVisitors') %>:&nbsp;
                     <span id="busuanzi_value_site_uv" class="white-color"></span>
