@@ -519,25 +519,23 @@ navMenu:
   mleft: false 
   bgColor: " " 
 
-# 网页预加载.
+
 instantpage:
   enable: true
 
-# banner 是否每日切换.
-# 若为 false, 则 banner 默认为 /medias/banner/0.jpg
+
 banner:
   enable: true
 
-# 中文繁简转换开关
-# 显示在底部 footer 栏
+
 translate:
   enable: false
 
-#ICP备案信息尾部显示
+
 icp:
   enable: false
-  url: # 备案链接
-  text: # 备案信息
+  url: 
+  text: 
 
 
 jsDelivr:
@@ -548,7 +546,7 @@ background:
   enable: false
   url: "https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg"
 
-# 说说 https://artitalk.js.org/
+
 artitalk:
   enable: false
   appId: # xxxxx
@@ -557,8 +555,8 @@ artitalk:
 
 bbtime:
   enable: false
-  appId: # 你的appId
-  appKey: # 你的appKey
+  appId: 
+  appKey: 
   serverURLs: # https://你的api
 
 
