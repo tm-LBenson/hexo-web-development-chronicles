@@ -1,8 +1,15 @@
 ---
 title: An Introduction to Insertion Sort: When to Use it and How it Works
-date: 2021-01-02
+date: 2023-01-02
 author: Lewis Benson
 tags:
+  - coding
+  - coding bootcamp
+  - programming
+  - tech
+  - technology
+  - web development
+  - software engineering
 ---
 
 <!-- @format -->
