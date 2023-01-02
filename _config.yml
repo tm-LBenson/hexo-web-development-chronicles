@@ -104,4 +104,8 @@ theme: matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/tm-LBenson/hexo-web-development-chronicles
+  branch: main
+
+
