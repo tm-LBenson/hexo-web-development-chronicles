@@ -1,8 +1,6 @@
 ---
-title:
-  '[object Object]': null
-date:
-  '[object Object]': null
+title: An Introduction to Insertion Sort: When to Use it and How it Works
+date: 2021-01-02
 author: Lewis Benson
 tags:
 ---
