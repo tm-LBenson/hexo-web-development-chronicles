@@ -167,19 +167,19 @@ $(function () {
             }
     });
 
-    // 初始化加载 tooltipped.
+   
     $('.tooltipped').tooltip();
 });
 
-//黑夜模式提醒开启功能
+//Dark mode popup
 setTimeout(function () {
     if ((new Date().getHours() >= 19 || new Date().getHours() < 7) && !$('body').hasClass('DarkMode')) {
-        let toastHTML = '<span style="color:#97b8b2;border-radius: 10px;>' + '<i class="fa fa-bellaria-hidden="true"></i>晚上使用深色模式阅读更好哦。(ﾟ▽ﾟ)</span>'
+        let toastHTML = '<span style="color:#97b8b2;border-radius: 10px;>' + '<i class="fa fa-bellaria-hidden="true"></i>Click to toggle dark mode.</span>'
         M.toast({ html: toastHTML })
     }
 }, 2200);
 
-//黑夜模式判断
+
 if (localStorage.getItem('isDark') === '1') {
     document.body.classList.add('DarkMode');
     $('#sum-moon-icon').addClass("fa-sun").removeClass('fa-moon')

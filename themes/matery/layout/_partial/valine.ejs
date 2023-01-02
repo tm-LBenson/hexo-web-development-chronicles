@@ -267,7 +267,7 @@
     var pushLink ="https://push.xuthus.cc/send/<%- theme.valine.coolpushkey %>";
     var siteName = "<%- config.title %>'s Blog";
     var valineButton=document.getElementsByClassName("vsubmit vbtn")[0];
-    var title = siteName + "上又有新评论啦~!\n";
+    var title = siteName + "There are new comments!\n";
   
     function send_valine() {
       //获取元素信息
@@ -280,20 +280,14 @@
       var veditor = document.getElementsByClassName("veditor vinput")[0].value;
       content =
         title +
-        "昵称：" + vnick +
-        "\n邮箱：" + vmail +
-        "\n网站地址：" + vlink +
-        "\n文章标题：" + pagename +
-        "\n评论内容：" + veditor +
-        "\n文章链接：" + pageurl +
-        "\n评论时间" + pushtime.toLocaleString() + "\n";
-      var httpRequest = new XMLHttpRequest(); //第一步：创建需要的对象
-      httpRequest.open("POST", pushLink, true); //第二步：打开连接
+        '';
+      var httpRequest = new XMLHttpRequest(); 
+      httpRequest.open("POST", pushLink, true); 
       httpRequest.setRequestHeader(
         "Content-type",
         "application/json"
-      ); //设置请求头 注：post方式必须设置请求头（在建立连接后设置请求头）
-      httpRequest.send(content); //发送请求 
+      ); 
+      httpRequest.send(content); 
     }
   
     document.body.addEventListener('click', function(e) {

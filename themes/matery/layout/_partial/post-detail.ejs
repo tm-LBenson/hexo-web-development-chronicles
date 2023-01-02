@@ -1,4 +1,4 @@
-<!-- 文章内容详情 -->
+
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
@@ -72,12 +72,12 @@
         <hr class="clearfix">
 
         <% if (config.prismjs && config.prismjs.enable) { %>
-        <!-- 是否加载使用自带的 prismjs. -->
+    
         <link rel="stylesheet" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.prism) %>">
         <% } %>
 
         <% if (theme.code.break) { %>
-        <!-- 代码块折行 -->
+       
         <style type="text/css">
             code[class*="language-"], pre[class*="language-"] { white-space: pre-wrap !important; }
         </style>

@@ -10,7 +10,7 @@
             <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
                 <div class="brand">
                     <div class="title center-align">
-                        404 Sorry 您找的页面不存在！
+                        404 Sorry！
                     </div>
                     <div class="title center-align">
                         试试右上角的<span style="color:blue;font-weight:bold">搜索</span>功能？
@@ -29,7 +29,7 @@
 
 <% if (theme.banner.enable) { %>
     <script>
-        // 每天切换 banner 图.  Switch banner image every day.
+        // Switch banner image every day.
         var bannerUrl = "<%- theme.jsDelivr.url %><%- url_for('/medias/banner/') %>" + new Date().getDay() + '.jpg';
         $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
     </script>
