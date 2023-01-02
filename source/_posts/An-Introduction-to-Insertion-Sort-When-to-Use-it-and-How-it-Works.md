@@ -1,5 +1,5 @@
 ---
-title: An Introduction to Insertion Sort: When to Use it and How it Works
+title: An Introduction to Insertion Sort
 date: 2023-01-02
 author: Lewis Benson
 tags:
