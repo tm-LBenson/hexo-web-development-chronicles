@@ -4,12 +4,12 @@ menu:
   Index:
     url: /
     icon: fas fa-home
-  # Tags:
-  #   url: /tags
-  #   icon: fas fa-tags
-  # Categories:
-  #   url: /categories
-  #   icon: fas fa-bookmark
+  Tags:
+    url: /tags/coding/
+    icon: fas fa-tags
+  Categories:
+    url: /categories/Code-Fellows
+    icon: fas fa-bookmark
   Archives:
     url: /archives
     icon: fas fa-archive
