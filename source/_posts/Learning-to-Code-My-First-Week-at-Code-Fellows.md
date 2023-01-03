@@ -2,14 +2,15 @@
 title: Learning-to-Code-My-First-Week-at-Code-Fellows
 date: 2023-01-01
 author: Lewis Benson
+category: Code Fellows
 tags:
-  - coding
-  - coding bootcamp
-  - programming
-  - tech
-  - technology
+  - array methods
+  - JavaScript
+  - code challenges
+  - jest
+  - software development
+  - problem solving
   - web development
-  - software engineering
 
 ---
 
@@ -33,6 +34,7 @@ I was happy to report that I scored 100% on the placement test, which was a grea
 During my first week at Code Fellows, I participated in a full-time basic software development course and kept a learning journal for each day. On the first day, I had the opportunity to meet my classmates and instructors and complete some administrative tasks to get settled in. The second day was filled with learning, as we reviewed the HTML assignment that asks a user four questions using prompts and also covered data types, including comparison operators and the difference between "falsey" values and data types. We also learned about the workflow of Git and GitHub and created a repo that we cloned to our local machines. On the third day, we started by reviewing the upcoming assignments so that we could prepare ourselves and also learned about arrays and loops. The fourth day was packed with learning as well, as we covered problem-solving, CSS positioning, functions, and Git forking and pull requests. Finally, on the fifth day, we focused on problem-solving strategies, image types and compatibility, CSS styling and responsive design, and Git branching. Overall, it was a productive and educational week, and I learned a lot of new concepts and skills that will be valuable as I continue my coding journey.
 
 ## Reflections on Week 1
+
 After my first week at Code Fellows, I felt confident that I had made the right choice in enrolling in this program. The course was intense and covered a lot of material, but I was able to keep up and absorb a lot of new information. I was really looking forward to starting week 2 and continuing my learning journey. One thing to note is that the course did require a significant time commitment. I was given homework over the weekend and my schedule for the week was from noon to 9pm, which would have been very difficult for someone trying to work and learn at the same time unless they enrolled in the nights and weekends plan. However, for me, the full-time course was the best option because I was able to focus on my studies without any distractions.
 
 I'm looking forward to sharing more of my experiences at Code Fellows in the coming weeks, so be sure to check back next week for the follow-up to this post. Thanks for reading!
