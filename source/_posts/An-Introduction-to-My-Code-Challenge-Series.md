@@ -2,8 +2,15 @@
 title: An Introduction to My Code Challenge Series
 date: 2023-01-03
 author: Lewis Benson
-category: Code Challenges, Code Fellows
+category: Code Challenges
 tags:
+  - coding
+  - code challenge
+  - programming
+  - JavaScript
+  - technology
+  - web development
+  - jest
 ---
 
 # Web Development for Beginners: Code Challenges and Array Methods

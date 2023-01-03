@@ -8,10 +8,9 @@ tags:
   - JavaScript
   - code challenges
   - jest
-  - software development
+  - coding
   - problem solving
   - web development
-
 ---
 
 

@@ -2,7 +2,7 @@
 title: An Introduction to Insertion Sort
 date: 2023-01-02
 author: Lewis Benson
-category: Code Challenges,Data Structures, Code Fellows
+category: Data Structures
 tags:
   - coding
   - coding bootcamp
