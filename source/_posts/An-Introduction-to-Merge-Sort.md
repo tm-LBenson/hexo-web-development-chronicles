@@ -184,33 +184,35 @@ function mergeSort(arr) {
 
     merge(left, right, arr);
   }
-}
 
-function merge(left, right, arr) {
-  let i = 0;
-  let j = 0;
-  let k = 0;
+  return arr;
 
-  while (i < left.length && j < right.length) {
-    if (left[i] <= right[j]) {
-      arr[k] = left[i];
-      i++;
+  function merge(left, right, arr) {
+    let i = 0;
+    let j = 0;
+    let k = 0;
+
+    while (i < left.length && j < right.length) {
+      if (left[i] <= right[j]) {
+        arr[k] = left[i];
+        i++;
+      } else {
+        arr[k] = right[j];
+        j++;
+      }
+      k++;
+    }
+
+    if (i === left.length) {
+      for (let l = j; l < right.length; l++) {
+        arr[k] = right[l];
+        k++;
+      }
     } else {
-      arr[k] = right[j];
-      j++;
-    }
-    k++;
-  }
-
-  if (i === left.length) {
-    for (let l = j; l < right.length; l++) {
-      arr[k] = right[l];
-      k++;
-    }
-  } else {
-    for (let l = i; l < left.length; l++) {
-      arr[k] = left[l];
-      k++;
+      for (let l = i; l < left.length; l++) {
+        arr[k] = left[l];
+        k++;
+      }
     }
   }
 }
