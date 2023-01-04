@@ -273,8 +273,8 @@ gitment:
 
 
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: tmlbenson
 
 
 livere:
