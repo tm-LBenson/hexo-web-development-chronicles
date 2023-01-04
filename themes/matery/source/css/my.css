@@ -1,1 +1,23 @@
 /* Here is your custom css styles. */
+pre > span.line > span.title{
+  font-size: 1rem;
+  color: rgb(145, 131, 224);
+}
+
+pre > span.line > span.keyword{
+  font-size: 1rem;
+  color: rgb(176, 59, 176);
+}
+
+pre > span.line > span.property{
+  font-size: 1rem;
+  color: rgb(176, 143, 59);
+}
+
+pre > span.line > span.number{
+  font-size: 1rem;
+  color: rgb(240, 203, 108);
+}
+div.code-area::after{
+  margin-top: -10px; 
+}
