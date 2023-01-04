@@ -1,17 +1,17 @@
-// 代码块一键复制
+
 
 $(function () {
-    var $copyIcon = $('<i class="fas fa-copy code_copy" title="复制代码" aria-hidden="true"></i>')
+    var $copyIcon = $('<i class="fas fa-copy code_copy" title="copy code" aria-hidden="true"></i>')
     var $notice = $('<div class="codecopy_notice"></div>')
     $('.code-area').prepend($copyIcon)
     $('.code-area').prepend($notice)
-    // “复制成功”字出现
+   
     function copy(text, ctx) {
         if (document.queryCommandSupported && document.queryCommandSupported('copy')) {
             try {
                 document.execCommand('copy') // Security exception may be thrown by some browsers.
                 $(ctx).prev('.codecopy_notice')
-                    .text("复制成功")
+                    .text("copy code")
                     .animate({
                         opacity: 1,
                         top: 30
@@ -25,7 +25,7 @@ $(function () {
                     })
             } catch (ex) {
                 $(ctx).prev('.codecopy_notice')
-                    .text("复制失败")
+                    .text("replication failed")
                     .animate({
                         opacity: 1,
                         top: 30
@@ -40,10 +40,10 @@ $(function () {
                 return false
             }
         } else {
-            $(ctx).prev('.codecopy_notice').text("浏览器不支持复制")
+            $(ctx).prev('.codecopy_notice').text("Browser does not support copying")
         }
     }
-    // 复制
+   
     $('.code-area .fa-copy').on('click', function () {
         var selection = window.getSelection()
         var range = document.createRange()
