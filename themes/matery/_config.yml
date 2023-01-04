@@ -254,13 +254,13 @@ postCalendar: true
 
 
 gitalk:
-  enable: false
-  owner:
-  repo:
+  enable: true
+  owner: tm-LBenson
+  repo: https://github.com/tm-LBenson/
   oauth:
-    clientId:
-    clientSecret:
-  admin:
+    clientId: process.env.GITALK_CLIENT_ID
+    clientSecret: process.env.GITALK_CLIENT_SECRET
+  admin: tm-LBenson
 
 
 gitment:
@@ -273,7 +273,7 @@ gitment:
 
 
 disqus:
-  enable: true
+  enable: false
   shortname: tmlbenson
 
 
