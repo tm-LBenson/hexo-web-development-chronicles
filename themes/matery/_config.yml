@@ -258,8 +258,8 @@ gitalk:
   owner: tm-LBenson
   repo: https://github.com/tm-LBenson/
   oauth:
-    clientId: ${GITALK_CLIENT_ID}
-    clientSecret: ${GITALK_CLIENT_SECRET}
+    clientId: "${GITALK_CLIENT_ID}"
+    clientSecret: "${GITALK_CLIENT_SECRET}"
   admin: tm-LBenson
 
 
