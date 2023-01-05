@@ -155,7 +155,7 @@ postInfo:
   readCount: false
 
 clicklove:
-  enable: true
+  enable: false
 
 sakura:
   enable: false

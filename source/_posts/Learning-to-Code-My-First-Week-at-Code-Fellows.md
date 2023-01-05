@@ -1,5 +1,5 @@
 ---
-title: Learning-to-Code-My-First-Week-at-Code-Fellows
+title: Learning to Code My First Week at Code Fellows
 date: 2023-01-01
 author: Lewis Benson
 category: Code Fellows
