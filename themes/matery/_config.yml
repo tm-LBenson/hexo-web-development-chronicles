@@ -229,7 +229,7 @@ myGallery:
 postCalendar: true
 
 gitalk:
-  enable: true
+  enable: false
   owner: tm-LBenson
   repo: https://github.com/tm-LBenson/
   oauth:
