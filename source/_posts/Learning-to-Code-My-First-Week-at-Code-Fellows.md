@@ -13,6 +13,9 @@ tags:
   - web development
 ---
 
+<!-- @format -->
+
+# Learning to Code My First Week at Code Fellows
 
 Welcome to my blog! In this post, I'll be sharing my experience during my first week at Code Fellows, a coding bootcamp in Seattle that I took remotely. Before starting at Code Fellows, I had already been learning to code on my own through an online course on Udemy. I went through a full stack course and even completed a capstone project - a full stack app using technologies such as express, ejs, and mongodb. However, I had no experience with collaboration and wanted to learn more about working with other developers in a team setting.
 
