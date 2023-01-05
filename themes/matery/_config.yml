@@ -234,7 +234,7 @@ gitalk:
   repo: https://github.com/tm-LBenson/
   oauth:
     clientId: 8735393a1fc8fd974cf3
-    clientSecret: ${{ secrets.GITALK_CLIENT_SECRET}}
+    clientSecret: ${{ process.env.GITALK_CLIENT_SECRET}}
   admin: tm-LBenson
 
 gitment:
