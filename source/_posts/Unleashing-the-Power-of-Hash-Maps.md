@@ -206,3 +206,16 @@ In comparison to other data structures, hash maps offer fast access times and mo
 Hash maps are a powerful data structure that can be used to solve a variety of problems that require fast insertion, deletion, and lookup times. They are often used in real-world applications and are a common topic in technical interviews. By understanding how to use and implement hash maps, you'll be well-equipped to tackle a wide range of challenges as a developer.
 
 As you continue to learn about data structures and algorithms, be sure to keep hash maps in mind and consider how they might be useful in your own projects. And stay tuned for future posts on other data structures and algorithms that can help you become a more effective and efficient developer.
+
+## Resources
+
+"Hash Table." Wikipedia, Wikimedia Foundation, 7 Jan. 2021, en.wikipedia.org/wiki/Hash_table.
+"Hashing." GeeksforGeeks, GeeksforGeeks, 13 July 2020, www.geeksforgeeks.org/hashing-set-1-introduction/.
+"JavaScript Map." MDN Web Docs, Mozilla, developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map.
+"Hash Tables." Learn DS & Algorithms, learn.freecodecamp.org/data-structures/hash-tables/.
+"JavaScript Objects." W3Schools, www.w3schools.com/js/js_objects.asp.
+"Big O Notation." Wikipedia, Wikimedia Foundation, 8 Jan. 2021, en.wikipedia.org/wiki/Big_O_notation.
+"Data Structures: Hash Tables." The Coding Train, 9 June 2019, www.youtube.com/watch?v=shs0KM3wKv8.
+"Hash Tables." Interactive Python, interactivepython.org/runestone/static/pythonds/SortSearch/Hashing.html.
+"Hash Tables." HackerRank, hackerrank.com/domains/data-structures/hash-tables.
+"Hash Tables." Cracking the Coding Interview, www.crackingthecodinginterview.com/lessons/data-structures/hash-tables.
