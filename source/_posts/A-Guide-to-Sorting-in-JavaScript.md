@@ -1,6 +1,6 @@
 ---
 title: Mastering the Art of Sorting
-date: 2023-01-03
+date: 2023-01-04
 author: Lewis Benson
 category: Code Challenges
 tags:
