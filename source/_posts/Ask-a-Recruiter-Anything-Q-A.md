@@ -26,7 +26,7 @@ As job seekers, we often find ourselves wondering how to navigate the job market
 
 ## Developing a Winning Strategy
 
-Finding the right job can be intimidating, but with a clear strategy in place, you can increase your chances of success. Kristen Fife, a recruiter at the "Ask a Recruiter Anything" event, emphasized the importance of understanding what recruiters are looking for in a candidate. One key aspect is having a strong set of functional skills - these are the tools and techniques that enable you to do your job effectively. Make a list of your functional skills and target employers that are looking for these skills to improve your chances of getting hired.
+Finding the right job can be intimidating, but with a clear strategy in place, you can increase your chances of success. Kristen Fife, a recruiter at the webinar, emphasized the importance of understanding what recruiters are looking for in a candidate. One key aspect is having a strong set of functional skills - these are the tools and techniques that enable you to do your job effectively. Make a list of your functional skills and target employers that are looking for these skills to improve your chances of getting hired.
 
 In addition to functional skills, it's also crucial to showcase any projects or accomplishments that demonstrate your expertise. Recruiters love to see candidates who have a track record of success, so don't be shy about sharing your achievements. If you have built something that has had a measurable impact or is being used by a large number of people, be sure to include that information on your resume and in your job search materials.
 
@@ -34,7 +34,7 @@ Networking is another essential part of finding the right job. Building relation
 
 ## Tailoring Your Resume to the Job
 
-At the "Ask a Recruiter Anything" event, it was emphasized how important it is to tailor your resume to the job you are applying for. To do this effectively, it's crucial to understand what recruiters are looking for and highlight the skills and experiences that align with the job description.
+It was emphasized how important it is to tailor your resume to the job you are applying for. To do this effectively, it's crucial to understand what recruiters are looking for and highlight the skills and experiences that align with the job description.
 
 Before you apply for a job, take the time to carefully review the job description and identify the skills and responsibilities required for the role. Then, make sure that your resume showcases these skills and experiences prominently. This will help you stand out as a candidate and increase your chances of getting an interview.
 
@@ -48,7 +48,7 @@ By tailoring your resume to the job and including quantitative data, you can mak
 
 Following up with recruiters after submitting an application or after a job interview can be a crucial step in the job search process. But it's important to do it in a way that is professional and respectful of the recruiter's time.
 
-One key piece of advice from the "Ask a Recruiter Anything" event was to make sure you have the recruiter's email or contact information before reaching out. You can often find this information on their LinkedIn profile or on the company website. It's also a good idea to research the recruiter's role and make sure they are responsible for hiring for the position you are interested in.
+One key piece of advice at the event was to check LinkedIn and research the recruiter's role and make sure they are responsible for hiring for the position you are interested in.
 
 When you do follow up, be concise and to the point. Consider thanking the recruiter for their time and reiterating your interest in the position. If you have new information or updates to share, such as a new accomplishment or skill, feel free to mention it briefly.
 
@@ -97,7 +97,7 @@ Finally, don't be afraid to take some time to regroup and recharge. It can be to
 
 Did you know that only about 5% of all jobs are filled through applications alone? This means that having a strong professional network and connections can greatly increase your chances of landing your dream job. One effective way to build these connections is by reaching out to companies that you are interested in working for, even if they don't have any current job openings.
 
-As Chris Bloomquist mentioned during the "Ask a Recruiter Anything" webinar, one approach is to research the company and find something specific that interests you, then reach out to someone in the department you are interested in working in. When you make contact, be sure to emphasize that you are not looking for a job, but rather just want to learn more about the company and its culture. This can be a great opportunity to make a good impression and show your unique interest in the company.
+As Chris Bloomquist mentioned during the event, one approach is to research the company and find something specific that interests you, then reach out to someone in the department you are interested in working in. When you make contact, be sure to emphasize that you are not looking for a job, but rather just want to learn more about the company and its culture. This can be a great opportunity to make a good impression and show your unique interest in the company.
 
 During this conversation, have some questions prepared that will help you learn more about the company and its values. This could include asking about what motivates the employees, what the company looks for in new hires, and what the company culture is like. By showing genuine interest and asking thoughtful questions, you can make a strong connection with the company and increase your chances of being considered for future job openings.
 
@@ -107,7 +107,7 @@ Remember, building relationships and making connections is key to uncovering hid
 
 When searching for a job that works for you, it's important to consider factors such as the schedule, pay, and benefits offered by the company. Additionally, it's important to be on the lookout for red flags that may indicate a toxic or unhealthy work environment. These red flags might include a high employee turnover rate, negative reviews or complaints from current or former employees, or a lack of transparency or open communication from management. By paying attention to these factors and being selective in your job search, you can increase your chances of finding a job that is a good fit for you and that you will be happy in.
 
-During the "Ask a Recruiter Anything" webinar, Matt Quarterman, a recruiter, recommended using [Strengthsfinder](https://www.gallup.com/cliftonstrengths/en/254033/strengthsfinder.aspx) as a tool to identify your strengths and find a job that aligns with them. This tool can help you understand what you are naturally good at and guide you in finding a role that fits your strengths and interests. While there is a cost to using Strengthsfinder, investing in yourself and your career can pay off in the long run and help you find a job that truly "works for you".
+During the webinar, Matt Quarterman, a recruiter, recommended using [Strengthsfinder](https://www.gallup.com/cliftonstrengths/en/254033/strengthsfinder.aspx) as a tool to identify your strengths and find a job that aligns with them. This tool can help you understand what you are naturally good at and guide you in finding a role that fits your strengths and interests. While there is a cost to using Strengthsfinder, investing in yourself and your career can pay off in the long run and help you find a job that truly "works for you".
 
 Another key aspect of finding the right job is being proactive and intentional in your search. Don't just randomly apply for jobs; put effort into finding positions that align with your goals and experience. Additionally, don't just take any course or training just for the sake of it; make sure it will be beneficial and add value to your skill set.
 
@@ -115,7 +115,7 @@ Your resume is an important tool in the job search process, but its main purpose
 
 During the interview process, it can be helpful to use the STAR method to structure your responses to behavioral questions. The STAR method involves describing a specific Situation or Task, the Action you took, and the Results of your action. This helps you provide clear and concise responses that demonstrate your skills and experiences.
 
-As you navigate the job search process, it's important to remember that not every job you interview for will be a good fit. It's okay to be rejected, and it's important to keep an open mind and continue to explore other opportunities. As Chris Bloomquist said at the end of the "Ask a Recruiter Anything" event, "Remember, if you got an interview (and not the job) that is PROGRESS, because many others didn't get the interview in the first place. That means you're close to landing something great!"
+As you navigate the job search process, it's important to remember that not every job you interview for will be a good fit. It's okay to be rejected, and it's important to keep an open mind and continue to explore other opportunities. As Chris Bloomquist said at the end of the event, "Remember, if you got an interview (and not the job) that is PROGRESS, because many others didn't get the interview in the first place. That means you're close to landing something great!"
 
 ## Conclusion
 
