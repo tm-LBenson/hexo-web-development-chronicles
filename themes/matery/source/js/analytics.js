@@ -27,7 +27,7 @@ const getIpAddress = async () =>
     .then((res) => res.json())
     .then((data) => data.ip);
 
-module.exports = async function analytics(siteName) {
+window.analytics = async function analytics(siteName) {
   try {
     if (!checkLastSent()) {
       return;
